@@ -1,0 +1,6 @@
+Client ID: ESE506-AM-SK-Final_Project
+Client Secret: yILVsAvt7ZYPH45N1O0UY6tduE48zHjGtfXfVAZ01LQ
+Your (encrypted) Live Id is: 2f9d06f10fc0ff8e57a09cadd2d04507
+
+This LiveId is now registered with Hawaii. You can use the following Access Guid to access Hawaii services.
+758fc51e-5906-457b-8824-689b847167aa
