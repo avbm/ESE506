@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Rendezvous Service</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Rendezvous Service</string>
+    <string name="main_button_registerName">Register Name</string>
+    <string name="main_unregister_name">Unregister Name</string>
+    <string name="main_button_unregister_name">Unregister Name</string>
+    <string name="main_button_associate_Id">Associate Id</string>
+    <string name="main_button_disassociateId">Disassociate Id</string>
+    <string name="main_button_lookupName">Lookup Name</string>
+    <string name="main_textview_name_info">Name</string>
+    <string name="main_textview_registrationId_info">Registration Id</string>
+
+</resources>

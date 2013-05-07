@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KeyValue Service</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">KeyValueServiceMain</string>
+    <string name="keyvaluelist_has_no_records">There are no items to display</string>
+    <string name="keyvaluelist_add_button_title">Add</string>
+    <string name="keyvaluelist_delete_button_title">Delete</string>
+    <string name="keyvaluelist_refresh_button_title">Refresh</string>
+    <string name="configuration_error_title">Error</string>
+    <string name="createkvitem_keytitle">Key</string>
+    <string name="createkvitem_valuetitle">Value</string>
+    <string name="createkvitem_add_button_title">Add</string>
+    <string name="createkvitem_prefix"></string>
+    <string name="error_missing_key_field_value">key value is not specified</string>
+
+</resources>

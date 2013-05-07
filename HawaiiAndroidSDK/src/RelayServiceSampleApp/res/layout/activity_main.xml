@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myendpoint"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/main_textview_myendpoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="MyEndpointName"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/main_button_createEndpoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_endpoint_button_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/group_listview_info"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView 
+        android:id="@+id/main_listview_mygroups"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:choiceMode="singleChoice"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true"
+        android:divider="#F0F0F0" />
+    
+    <Button
+        android:id="@+id/main_button_manageGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/manage_groups_button_title" />
+
+    <Button
+        android:id="@+id/main_button_sendMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/send_messages_button_title" />
+
+    <Button
+        android:id="@+id/main_button_receiveMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/receive_messages_button_title" />
+    
+    <ProgressBar 
+        android:id="@+id/main_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    
+</LinearLayout>

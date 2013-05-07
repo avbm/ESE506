@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">PathPrediction</string>
+    <string name="menu_settings">Settings</string>
+    <color name="red">#fe0000</color>
+    <string name="googleMapKey">0BIu-NrrIX7UIy84gpJPz-x1Z3qC9Sv3blvoouQ</string>
+
+</resources>

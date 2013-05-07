@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/createkvitem_keylayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/createkvitem_keytitle" />
+
+        <EditText
+            android:id="@+id/createkvitem_key_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter key: " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/createkvitem_valuelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/createkvitem_valuetitle" />
+
+        <EditText
+            android:id="@+id/createkvitem_value_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter value: " />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/createkvitem_add_button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="@string/createkvitem_add_button_title"
+        android:textColor="#208090" />
+
+    <Button
+        android:id="@+id/createkvitem_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/createkvitem_operationstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="" />
+
+    <ProgressBar
+        android:id="@+id/createkvitem_progressbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_marginTop="280dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="gone" />
+
+</LinearLayout>
