@@ -4,17 +4,10 @@
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry exported="true" kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/httpcomponents-client-4.2.5/lib/commons-codec-1.6.jar"/>
-	<classpathentry exported="true" kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/httpcomponents-client-4.2.5/lib/commons-logging-1.1.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/httpcomponents-client-4.2.5/lib/fluent-hc-4.2.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/httpcomponents-client-4.2.5/lib/httpclient-4.2.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/httpcomponents-client-4.2.5/lib/httpclient-cache-4.2.5.jar"/>
-	<classpathentry exported="true" kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/httpcomponents-client-4.2.5/lib/httpcore-4.2.4.jar"/>
-	<classpathentry exported="true" kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/httpcomponents-client-4.2.5/lib/httpmime-4.2.5.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/jackson-annotations-2.2.0.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/jackson-core-2.2.0.jar"/>
-	<classpathentry kind="lib" path="D:/Documents/Dropbox/SDK Workspace/HawaiiAndroidSDK/jackson-databind-2.2.0.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Seong/Documents/GitHub/ESE506/HawaiiAndroidSDK/jackson-core-lgpl-1.9.12.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Seong/Documents/GitHub/ESE506/HawaiiAndroidSDK/jackson-mapper-lgpl-1.9.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/amod/workspace/ESE506/HawaiiAndroidSDK/jackson-core-lgpl-1.9.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/amod/workspace/ESE506/HawaiiAndroidSDK/jackson-mapper-lgpl-1.9.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/amod/workspace/ESE506/HawaiiAndroidSDK/jackson-databind-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/amod/workspace/ESE506/HawaiiAndroidSDK/jackson-core-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/amod/workspace/ESE506/HawaiiAndroidSDK/jackson-annotations-2.2.0.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
